@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    line-height: 1.4;
+}
+header {
+    position: fixed;
+    /* top: 0;
+    left: 0;
+    right: 0; */
+    inset: 0 0 auto 0;
+    height: 80px;
+    background-color: rgba(255, 255, 224, 0.72);
+    border: 1px solid lightgray;
+    text-align: center;
+}
+
+/* p:first-of-type {
+    padding-block-start: 100px;
+} */
+
+aside {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 224, 0.72);
+    border: 1px solid lightgray;
+    text-align: center;
+}

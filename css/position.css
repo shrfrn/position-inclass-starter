@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 body {
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4;
     color: #777;
@@ -10,12 +11,14 @@ body {
 .outline {
     width: 480px;
     height: 480px;
+    margin: 100px auto;
     outline: 1px dashed lightgray;
 }
 .main {
+    position: relative;
     width: 480px;
     height: 480px;
-    border: 1px solid lightgrey;
+    /* border: 1px solid lightgrey; */
     text-align:justify;
     overflow: scroll;
 }
@@ -32,20 +35,26 @@ body {
     color: #222;
 }
 .box1 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
     background-color: lightblue;
 }
 .box2 {
     position: relative;
+    /* top: 100px;
+    left: 100px; */
     background-color: rgb(210, 173, 230);
 }
 .box3 {
     position: sticky;
     top: 100px;
+    left: 100px;
     /* bottom: 100px; */
     background-color: rgb(221, 230, 173);
 }
 .circle {
-    position: absolute;
+    /* position: absolute; */
     top: 30px;
     
     width: 50px;
