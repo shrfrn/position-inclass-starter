@@ -18,10 +18,9 @@ body {
 
 .main-container {
     position: relative;
-    width: 60vw;
-    height: 70vh;
+    width: max(60vw, 200px);
+    height: 80vh;
 
-    padding: 20px;
     background-color: whitesmoke;
     margin: 50px auto;
 }
@@ -32,7 +31,6 @@ body {
 
     padding: 15px;
     opacity: .8;
-    margin: 0px auto 20px;
     
     color: #222;
     font-family: monospace;
@@ -41,24 +39,24 @@ body {
 
 .relative-box {
     /* position: relative; */
-    /* top: 50px;
-    left: 50px; */
+    top: 50px;
+    left: 50px;
 
     background-color: rgb(210, 173, 230);
 }
 
 .absolute-box {
     /* position: absolute; */
-    /* top: 50px;
-    left: 50px; */
+    top: 50px;
+    left: 50px;
 
     background-color: lightblue;
 }
 
 .fixed-box {
     /* position: fixed; */
-    /* top: 50px;
-    left: 250px; */
+    top: 20px;
+    right: 20px;
     z-index: 2;
 
     background-color: rgba(238, 231, 92, 0.352);
@@ -66,7 +64,7 @@ body {
 
 .sticky-box {
     /* position: sticky; */
-    /* top: 50px; */
+    top: 20px;
     
     background-color: rgb(221, 230, 173);
 }
