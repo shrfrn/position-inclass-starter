@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: start center;
+
+    margin: 0;
+    height: 200vh;
+}
+
+main {
+    position: relative;
+    
+    width: 30vw;
+    height: 30vw;
+    margin-block-start: 300px;
+    background-color: lightgray;
+}
+
+.blue-box {
+    /* position: absolute; */
+
+    width: 6vw;
+    height: 6vw;
+
+    background-color: lightsteelblue;
+    opacity: .9;
+}
+
+h1 {
+    padding: 0 1em;
+    margin: 0;
+
+    font-family: arial,sans-serif;
+    font-size: 3em;
+}
