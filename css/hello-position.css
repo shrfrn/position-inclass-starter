@@ -3,11 +3,7 @@
 }
 
 body {
-    /* display: grid; */
-    /* place-items: start center; */
-
     margin: 0;
-    height: 200vh;
 }
 
 main {
@@ -17,6 +13,7 @@ main {
     height: 30vw;
     margin: 100px auto;
     background-color: lightgray;
+    opacity: .9;
 }
 
 .blue-box {
