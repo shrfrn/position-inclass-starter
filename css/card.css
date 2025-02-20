@@ -64,15 +64,16 @@ button.btn-close {
     /* background-color: #fff; */
 }
 
-.corner:nth-child(1 of .corner) {
+main :nth-child(1 of .corner) {
     inset: -4px auto auto -4px;
-    /* opacity: .5; */
+
     border-block-start: 8px solid lightblue;
     border-inline-start: 8px solid lightblue;
 }
 
-.corner:nth-child(2 of .corner) {
+main :nth-child(2 of .corner) {
     inset: auto -4px -4px auto;
+    
     border-block-end: 8px solid lightblue;
     border-inline-end: 8px solid lightblue;
 }
